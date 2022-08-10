@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# Getting Started with Nasa's newest Rover Photo Site
+Clone the server down on your own computer. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Once downloaded, run
 
-## Available Scripts
+### `npm i`
 
-In the project directory, you can run:
+To install all the dependencies. There aren't many, but it won't work unless you do this step.
 
 ### `npm start`
 
