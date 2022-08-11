@@ -1,12 +1,21 @@
 import './App.css';
-import { Link } from "react-router-dom";
+import { useEffect, useState } from 'react';
 import axios from 'axios';
+import {
+  Outlet, Link
+} from "react-router-dom";
+
+import Home from './components/Home';
+import Rover from './components/Rover';
+import Navi from './components/Navi';
+
+
 
 const App = () => {
   return (
     <div>
-      <p>list all the rovers</p>
-      <p>make a map through them all with links to a page with that name</p>
+      <Navi />
+      <Outlet />
     </div>
   );
 }
